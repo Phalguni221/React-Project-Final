@@ -1,17 +1,22 @@
 import './App.css';
-import React, {useContext} from 'react'
-import Navbar from './components/Navbar'
-import React, {useContext} from 'react'
+import React, {useContext, useState} from 'react'
+import Bar from './components/NavBar'
 
-const useContext = AppContext;
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <Navbar />
-      </header>
+  <div>
+  
+    <header>
+      <Bar />
+    </header>
+
+    <main>
+    </main>
     </div>
-  );
-}
+    );
+  }
+  
 
 export default App;
+
+
