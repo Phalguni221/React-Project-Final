@@ -2,21 +2,19 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Instructions from './Instructions';
 import Descriptions from './Descriptions';
-import Uses from './Uses'
+import Uses from './Uses';
 
 
 export default function Bar () {
+
     return (
-<div className="NavBar">
       <BrowserRouter>
         <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
           <h1 className="title">Product Page - Know More About REST-Rant!</h1>
-
+          <nav>
           <div className="navBar">
             <ul>
-            <li>
-                <Link to="/app">Home</Link>
-              </li>
               <li>
                 <Link to="/descriptions">Descriptions</Link>
               </li>
@@ -28,14 +26,12 @@ export default function Bar () {
               </li>
             </ul>
           </div>
+         </nav>
         </header>
      
 
         <div className="display">
         <Routes>
-        <Route path="/app" element={
-            <App/>
-          } />
           <Route path="/descriptions" element={
             <Descriptions/>
           } />
@@ -49,7 +45,6 @@ export default function Bar () {
         </Routes>
         </div>
         </BrowserRouter>
-  </div>
     )
 
 }

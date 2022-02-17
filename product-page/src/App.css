@@ -4,22 +4,12 @@
   --highlight-color: gold;
 }
 
-html,body {
-height:100%;
-margin:0pt;
-} 
-
 body {
-  background-color: lightblue;
-  text-align: center;
-}
-
-
-main {
-  margin-right: 20px;
-  margin-left: 20px;
-  background-color: beige;
-}
+height:50%;
+margin:6pt;
+background-color:lightblue;
+text-align: center;
+} 
 
 img {
     width:200px;
@@ -127,5 +117,3 @@ nav a:hover {
   color: pink;
   text-decoration: none;
 }
-
-
