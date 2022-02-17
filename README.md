@@ -1,1 +1,1 @@
-Product page for React-Final
+Product page for REST-Rant page
